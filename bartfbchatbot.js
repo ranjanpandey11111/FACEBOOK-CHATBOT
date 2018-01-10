@@ -14,9 +14,9 @@ var express = require('express'),
     http = require('http'),
     bodyParser = require('body-parser'),
     port = process.env.PORT || 3000,
-    FACEBOOK_PAGE_ACCESS_TOKEN = "EAAB0q2rdaZB8BAAIUdVJ3NEeZBLFlv205W9rAjjkOrx8WPFklDXGjAYoDferP2XvkCvSZAVcsAPJ152GD5qgZBAg7nZCjykFsLl77RVbK9QLIcPv6afTuTZAhYB4XfEZATKCyBsafneSjGoFnJTbZClE1netO9u5vcHs7lbdq7C2HRO7w2QtevZA2",
+    FACEBOOK_PAGE_ACCESS_TOKEN = "-------",
     MAPBOX_API_TOKEN = "",
-    BART_API_BASE = 'localhost:3000';
+    BART_API_BASE = 'url';
 
 function processMessage(sender, reqText) {
     var respText = 'Sorry I don\'t understand. Try:\n\nstatus\nelevators\nstations\ndepartures <code>\n\nOr send your location for nearest station.',
